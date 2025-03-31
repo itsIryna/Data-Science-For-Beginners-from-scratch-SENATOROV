@@ -241,7 +241,7 @@ coverage/
 
 
 *.png
-*.jpg
+#*.jpg
 *.jpeg
 *.zip
 *.rar
