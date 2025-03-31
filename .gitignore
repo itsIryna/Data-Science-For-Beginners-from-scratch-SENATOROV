@@ -252,8 +252,8 @@ coverage/
 
 # Images
 *.png
-*.jpg
-*.jpeg
+#*.jpg
+#*.jpeg
 *.gif
 *.bmp
 *.tiff
