@@ -167,7 +167,7 @@ venv
 .DS_Store
 Thumbs.db
 .mypy_cache
-pre-commit
+#pre-commit
 # Logs and databases #
 ######################
 *.log
@@ -241,7 +241,7 @@ coverage/
 
 
 #*.png
-*.jpg
+#*.jpg
 *.jpeg
 *.zip
 *.rar
@@ -252,8 +252,8 @@ coverage/
 
 # Images
 #*.png
-*.jpg
-*.jpeg
+#*.jpg
+#*.jpeg
 *.gif
 *.bmp
 *.tiff
@@ -333,3 +333,5 @@ coverage/
 
 /Math/calculus/theory
 /Math/school_theory
+
+Screenshot_7.png
