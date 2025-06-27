@@ -240,17 +240,17 @@ repos:
           ]
         additional_dependencies: [pylint]
 
-  # - repo: https://github.com/nbQA-dev/nbQA
-  #   rev: 1.9.0
-  #   hooks:
-  #     - id: nbqa-pydocstyle
-  #       name: nbqa-pydocstyle
-  #       description: Run 'pydocstyle' on a Jupyter Notebook
-  #       entry: nbqa pydocstyle
-  #       language: python
-  #       require_serial: true
-  #       types_or: [jupyter, markdown]
-  #       additional_dependencies: [pydocstyle]
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.9.0
+    hooks:
+      - id: nbqa-pydocstyle
+        name: nbqa-pydocstyle
+        description: Run 'pydocstyle' on a Jupyter Notebook
+        entry: nbqa pydocstyle
+        language: python
+        require_serial: true
+        types_or: [jupyter, markdown]
+        additional_dependencies: [pydocstyle]
   # - repo: https://github.com/christophmeissner/pytest-pre-commit
   #   rev: 1.0.0
   #   hooks:
