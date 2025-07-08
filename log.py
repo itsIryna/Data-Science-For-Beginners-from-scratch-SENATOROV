@@ -173,3 +173,8 @@
 # - inv function in python means normal equation
 # - flatten, vstack
 # - add a column with value 1
+
+# ### 04.07 Inverse Matrix techniques, continue
+# - finding determinant of matrice
+# - finding minors
+# - finding Agj
