@@ -19,10 +19,10 @@ repos:
     hooks:
       - id: docformatter
         args: [--in-place, --wrap-descriptions=90, --style=google]
-  - repo: https://github.com/psf/black.git
-    rev: "24.10.0"
-    hooks:
-      - id: black
+  # - repo: https://github.com/psf/black.git
+  #   rev: "24.10.0"
+  #   hooks:
+  #     - id: black
 
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.0
